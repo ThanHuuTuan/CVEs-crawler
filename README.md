@@ -6,3 +6,8 @@ Other info will be updated soon!
 ```
 $ python CVE_crawler_keyword.py Joomla 2012
 ```
+## Requirements
+**Python 2.7:
+- requests
+- BeautifulSoup
+- csv
