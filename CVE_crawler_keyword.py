@@ -1,9 +1,7 @@
+from bs4 import BeautifulSoup
 import requests
 import sys
-import numpy
-from bs4 import BeautifulSoup
 import csv
-import xlsxwriter
 import os.path
 
 web_base = "cvedetail"
@@ -93,7 +91,9 @@ if __name__ == "__main__":
 		sys.exit(1)
 	product_id = get_vendor_id(keyword)
 	pages = get_result_pages(product_id)
-	file_name = "CVEs_%s.csv" % keyword
+	if not os.path.exists("results"):
+		os.makedirs("results")
+	file_name = "results/CVEs_%s.csv" % keyword
 	file_exist = False
 	for c, page in enumerate(pages):
 		print "page %d " % (c)
