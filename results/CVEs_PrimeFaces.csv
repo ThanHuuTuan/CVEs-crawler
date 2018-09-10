@@ -1,0 +1,2 @@
+#,CVE ID,CWE ID,# of Exploits,Vulnerability Type(s),Publish Date,Update Date,Score,Gained Access Level,Access,Complexity,Authentication,Conf.,Integ.,Avail.,Description
+1,CVE-2017-1000486,326,None,Exec Code,2018-01-03,2018-01-24,7.5,None,Remote,Low,Not required,Partial,Partial,Partial,Primetek Primefaces 5.x is vulnerable to a weak encryption flaw resulting in remote code execution
