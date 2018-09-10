@@ -1,5 +1,5 @@
 # CVEs-crawler
-A small tools is used to crawl information about all CVEs of a framework listed on https://www.cvedetails.com/ by using name of framework as keyword. if everthing goes fine, the result will be exported in .csv format. The very first advanced feature it has is filtering by time :) But may be sooner than you think, i will comeback with some new ones!
+A small tools is used to crawl information about all CVEs of a framework listed on [cvedetails](https://www.cvedetails.com/) by using name of framework as keyword. if everthing goes fine, the result will be exported in .csv format. The very first advanced feature it has is filtering by time :) But may be sooner than you think, i will comeback with some new ones!
 
 Other info will be updated soon!
 ##  Example
